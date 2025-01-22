@@ -85,3 +85,12 @@ for (i of list_potion) {
     console.log("Nous avons de la " + i);
 }
 
+//Rangeons les informations de la potion de soin dans un objet 🧹
+
+let first_potion = {
+    nom: "Potion de Mamie-Turbo",
+    prix: 20,
+    stock: 58,
+}
+console.log(first_potion);
+
