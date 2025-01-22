@@ -46,21 +46,32 @@ if (overture === true) {
 
 //Calcul du prix total d'une commande de potion
 
-let user_potion_need = parseInt(prompt("combien de potion de soins voulez vous acheter?"));
-let prix_commande = user_potion_need * prix_potion;
-console.log("Prix de " + user_potion_need + " potions de soins : " + prix_commande + " 🪙 mon cher Aventurier. 💸");
+// let user_potion_need = parseInt(prompt("combien de potion de soins voulez vous acheter?"));
+// let prix_commande = user_potion_need * prix_potion;
+// console.log("Prix de " + user_potion_need + " potions de soins : " + prix_commande + " 🪙 mon cher Aventurier. 💸");
 
 //Bourse de l'Aventurier 💰
 
-let adventure_money = 1000000;
-let pouvoir_achat = true;
+// let adventure_money = 1000000;
+// let pouvoir_achat = true;
 
-if (adventure_money >= prix_commande && nb_potion >= user_potion_need){
-    adventure_money = adventure_money - prix_commande;
-    nb_potion = nb_potion - user_potion_need;
-}else{
-    console.log("Vous n'avez pas assez d'argent ou il n'a pas assez de potions dans le stock");
-};
+// if (adventure_money >= prix_commande && nb_potion >= user_potion_need){
+//     adventure_money = adventure_money - prix_commande;
+//     nb_potion = nb_potion - user_potion_need;
+// }else{
+//     console.log("Vous n'avez pas assez d'argent ou il n'a pas assez de potions dans le stock");
+// };
+
+//Liste des potions
+
+let list_potion = ["Potion de Gin", "Potion de Rhum", "Potion de Mamie-Turbo"];
+console.log(list_potion[0]);
+console.log(list_potion[list_potion.length -1]);
+for (i of list_potion) {
+    console.log("Nous avons de la " + i);
+}
+
+
 
 
 
