@@ -78,7 +78,10 @@ for (i of list_potion) {
     console.log("Nous avons de la " + i);
 }
 
+//Finaly, nope.
 
-
-
+let new2_list_potion = list_potion.pop();
+for (i of list_potion) {
+    console.log("Nous avons de la " + i);
+}
 
