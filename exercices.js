@@ -99,3 +99,19 @@ console.log(first_potion);
 console.log(first_potion.nom);
 console.log(first_potion["prix"]);
 
+//C'est l'heure de faire l'inventaire...
+
+let second_potion = {
+    nom: "Potion de Gin",
+    prix: 15,
+    stock: 66,
+}
+let third_potion = {
+    nom: "Potion de Rhum",
+    prix: 10,
+    stock: 98,
+}
+
+let inventaire = [first_potion, second_potion, third_potion];
+
+
