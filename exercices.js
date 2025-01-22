@@ -60,7 +60,7 @@ if (overture === true) {
 //     nb_potion = nb_potion - user_potion_need;
 // }else{
 //     console.log("Vous n'avez pas assez d'argent ou il n'a pas assez de potions dans le stock");
-// };
+// }
 
 //Liste des potions
 
@@ -71,6 +71,12 @@ for (i of list_potion) {
     console.log("Nous avons de la " + i);
 }
 
+//Ajout d'une nouvelle potion
+
+let new_list_potion = list_potion.push("Potion of chromosome addition");
+for (i of list_potion) {
+    console.log("Nous avons de la " + i);
+}
 
 
 
