@@ -114,4 +114,17 @@ let third_potion = {
 
 let inventaire = [first_potion, second_potion, third_potion];
 
+//Aventurier, regarde tout ce que je vends !
+
+for(i of inventaire){
+    console.log("Nom: " + i.nom);
+    console.log("Prix: " + i.prix);
+    console.log("Stock: " + i.stock);
+}
+
+for(f of inventaire){
+    for(const [i, j] of Object.entries(f)){
+        console.log(`${i}: ${j}`);
+    }
+}
 
