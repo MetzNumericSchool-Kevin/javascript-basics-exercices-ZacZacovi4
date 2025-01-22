@@ -94,3 +94,8 @@ let first_potion = {
 }
 console.log(first_potion);
 
+//Affichons les informations de la potion
+
+console.log(first_potion.nom);
+console.log(first_potion["prix"]);
+
